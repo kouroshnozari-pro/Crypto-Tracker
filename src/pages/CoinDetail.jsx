@@ -112,7 +112,7 @@ export const CoinDetail = () => {
             <span
               className={`change-badge ${isPositive ? "positive" : "negative"}`}
             >
-              {isPositive ? "🠉" : "🠋"} {Math.abs(priceChange).toFixed(2)}%
+              {isPositive ? "⇗" : "⇘"} {Math.abs(priceChange).toFixed(2)}%
             </span>
           </div>
 
