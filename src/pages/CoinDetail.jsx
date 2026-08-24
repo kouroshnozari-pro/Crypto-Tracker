@@ -89,7 +89,7 @@ export const CoinDetail = () => {
           </div>
 
           <button onClick={() => navigate("/")} className="back-button">
-            🡄 Back to List
+            ⏴ Back to List
           </button>
         </div>
       </header>
